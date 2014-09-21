@@ -1,0 +1,297 @@
+div.menu-container {
+	position:absolute;
+}
+
+div.menu-container header.menu
+a.logo {
+	float:none;
+	margin:27px
+auto 0px auto;
+}
+
+div.menu-container header.menu
+a.link {
+	display:none;
+}
+
+a.scroll-arrows {
+	display:none;
+}
+
+span.visit-direction {
+	display:none;
+}
+
+nav.shortcut-container
+a {
+	display:none;
+}
+
+div.discover-container section.discover
+h1 {
+	font-size:30px;
+	line-height:35px;
+}
+
+div.discover-container section.discover
+h2 {
+	font-size:30px;
+	line-height:35px;
+}
+
+div.discover-container section.discover
+h3 {
+	font-size:30px;
+	line-height:35px;
+}
+
+div.discover-container section.discover
+span.border {
+	display:none;
+}
+
+div.discover-container section.discover a.demo, 
+div.discover-container section.discover
+a.audit {
+	display:none;
+}
+
+div.discover-container section.discover a.demo:hover, 
+div.discover-container section.discover
+span.call {
+	display:none;
+}
+
+div section table tr
+td.img {
+	display:none;
+}
+
+
+div.containers {
+	padding:0px;
+	background-image:none;
+	background-color:transparent;
+	border-top:1px solid #e9ebf2;
+}
+
+div.discover-container {
+	border-top:none;
+	background-image:url(../img/bg_discover.jpg);
+}
+
+div.ready-to-start-container {
+	background-color:#f3f3f5;
+}
+
+div.discover-container
+section.discover {
+	padding:190px
+20px 100px 20px;
+}
+
+div.whats-container section.whats
+img.signature {
+	margin-top:30px;
+}
+
+div.whats-container section.whats, 
+div.multi-site-container section.multi-site, 
+div.cms-container section.cms, 
+div.modules-container section.modules, 
+div.communication-container section.communication, 
+div.performance-container section.performance, 
+div.ready-to-start-container section.ready-to-start {
+	padding:50px
+10px;
+}
+
+div.ready-to-start-container section.ready-to-start
+table {
+	width:100%;
+}
+
+div.whats-container section.whats table tr td.text h2, 
+div.multi-site-container section.multi-site table tr td.text h2, 
+div.cms-container section.cms table tr td.text h2, 
+div.modules-container section.modules table tr td.text h2, 
+div.communication-container section.communication table tr td.text h2, 
+div.performance-container section.performance table tr td.text h2, 
+div.ready-to-start-container section.ready-to-start table tr td.text
+h2 {
+	margin-bottom:30px;
+	color:#0a1553;
+	font-size:28px;
+	line-height:28px;
+}
+
+div.whats-container section.whats table tr td.text h3, 
+div.multi-site-container section.multi-site table tr td.text h3, 
+div.cms-container section.cms table tr td.text h3, 
+div.modules-container section.modules table tr td.text h3, 
+div.communication-container section.communication table tr td.text h3, 
+div.performance-container section.performance table tr td.text h3, 
+div.ready-to-start-container section.ready-to-start table tr td.text
+h3 {
+	display:none;
+}
+
+div.whats-container section.whats table tr td.text p, 
+div.multi-site-container section.multi-site table tr td.text p, 
+div.cms-container section.cms table tr td.text p, 
+div.modules-container section.modules table tr td.text p, 
+div.communication-container section.communication table tr td.text p, 
+div.performance-container section.performance table tr td.text p, 
+div.ready-to-start-container section.ready-to-start table tr td.text
+p {
+	margin:0px;
+	color:#0a1553;
+	text-align:left;
+}
+
+div.ready-to-start-container section.ready-to-start table tr td.text
+p {
+	display:none;
+}
+
+div.ready-to-start-container section.ready-to-start table tr td.text section.contact-mobile {
+	display:block;
+}
+
+div.ready-to-start-container section.ready-to-start table tr td.text section.contact-mobile
+div.part {
+	padding:15px
+10px;
+	border-top:1px solid #ced0db;
+}
+
+div.ready-to-start-container section.ready-to-start table tr td.text section.contact-mobile div.part
+span.picto {
+	float:left;
+	display:block;
+	margin-top:20px;
+	height:35px;
+	width:35px;
+	background-image:url(../img/sp_contact.png);
+	background-repeat:no-repeat;
+}
+
+div.ready-to-start-container section.ready-to-start table tr td.text section.contact-mobile div.part
+span.position {
+	background-position:0px 0px;
+}
+
+div.ready-to-start-container section.ready-to-start table tr td.text section.contact-mobile div.part
+span.contact {
+	background-position:-35px 0px;
+}
+
+div.ready-to-start-container section.ready-to-start table tr td.text section.contact-mobile div.part
+span.support {
+	background-position:-70px 0px;
+}
+
+div.ready-to-start-container section.ready-to-start table tr td.text section.contact-mobile div.part
+span.text {
+	float:left;
+	margin-left:30px;
+}
+
+div.ready-to-start-container section.ready-to-start table tr td.text section.contact-mobile div.part
+h2 {
+	margin-bottom:0px;
+	font-weight:600;
+	font-size:22px;
+}
+
+div.ready-to-start-container section.ready-to-start table tr td.text section.contact-mobile div.part
+p {
+	display:block;
+}
+
+div.ready-to-start-container section.ready-to-start table tr td.text section.contact-mobile div.part
+a {
+	color:#0a1553;
+}
+
+div.whats-container section.whats table tr td.text a.demo, 
+div.multi-site-container section.multi-site table tr td.text a.demo, 
+div.cms-container section.cms table tr td.text a.demo, 
+div.modules-container section.modules table tr td.text a.demo, 
+div.communication-container section.communication table tr td.text a.demo, 
+div.performance-container section.performance table tr td.text a.demo, 
+div.ready-to-start-container section.ready-to-start table tr td.text
+a.contact {
+	display:none;
+}
+
+div.features-container {
+	display:none;
+}
+
+div.footer-container {
+	height:30px;
+	width:100%;
+	border-top:1px solid #cdcfd5;
+	background-color:#060b29;
+}
+
+div.footer-container
+footer {
+	width:auto;
+}
+
+div.footer-container footer
+div.infos {
+	float:none;
+	padding-top:7px;
+	height:auto;
+	width:auto;
+	color:#FFF;
+	font-size:14px;
+	border-right:none;
+}
+
+div.footer-container footer div.infos table
+td.logo {
+	padding-left:10px;
+}
+
+div.footer-container footer div.infos table td.logo
+span {
+	display:none;
+}
+
+div.footer-container footer div.infos table td.logo
+a {
+	display:none;
+}
+
+div.footer-container footer div.infos table
+td.address {
+	display:none;
+}
+
+div.footer-container footer div.infos table
+td.phone {
+	display:none;
+}
+
+div.footer-container footer div.infos table
+td.mail {
+	display:none;
+}
+
+div.footer-container footer
+div.social {
+	display:none;
+}
+
+@media (min-resolution: 192dpi),  (-webkit-min-device-pixel-ratio: 2),  (min--moz-device-pixel-ratio: 2),  (-o-min-device-pixel-ratio: 2/1),  (min-device-pixel-ratio: 2),  (min-resolution: 2dppx) {
+	div.ready-to-start-container section.ready-to-start table tr td.text section.contact-mobile div.part
+span.picto {
+	background-image:url(../img/sp_contact-x4.png);
+	background-size:105px 35px;
+}
+
+}
