@@ -391,7 +391,7 @@ div.social{float:left;padding-top:30px;width:120px}div.footer-container footer d
 a{display:inline-block;height:35px;width:35px;background-image:url(img/sp_social.png);background-repeat:no-repeat}div.footer-container footer div.social
 a.facebook{margin-left:30px;background-position:0px 0px}div.footer-container footer div.social
 a.twitter{margin-left:7px;background-position:0px -35px}div.footer-container footer div.social a.facebook:hover{background-position:-35px 0px}div.footer-container footer div.social a.twitter:hover{background-position:-35px -35px}@media (min-resolution: 192dpi), (-webkit-min-device-pixel-ratio: 2), (min--moz-device-pixel-ratio: 2), (-o-min-device-pixel-ratio: 2/1), (min-device-pixel-ratio: 2), (min-resolution: 2dppx){div.menu-container header.menu
-a.logo{background-image:url(img/img_logo-x4.png);background-size:175px 30px}a.scroll-arrows{background-image:url(img/sp_arrow-x4.png);background-size:112px 112px}span.visit-direction{background-image:url(img/img_visit-direction-x4.png);background-size:165px 100px}nav.shortcut-container
+a.logo{background-image:url(img/img_logo-x4.png);background-size:175px 30px}a.scroll-arrows{background-image:url(img/sp_arrow-x4.png);background-size:112px 112px}span.visit-direction{background-image:url(img/img_visit-direction.png);background-size:165px 100px}nav.shortcut-container
 a{background-image:url(img/sp_shortcuts-x4.png);background-size:78px 26px}div.features-container nav a
 span{background-image:url(img/sp_features-x4.png);background-size:240px 40px}div.prices-array-container section.prices-array a
 span{background-image:url(img/sp_small-arrow-x4.png);background-size:16px 8px}div.prices-services-container section.prices-services div.icon
