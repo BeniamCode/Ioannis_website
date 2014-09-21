@@ -278,8 +278,7 @@ td.img {
 
 div.whats-container section.whats table tr
 td.text {
-	padding:0px
-3%;
+	padding:0px 3%;
 	width:50%;
 }
 
@@ -419,9 +418,9 @@ td.img {
 
 div.cms-container section.cms table tr td.img
 img {
-	max-height:865px;
-	max-width:980px;
-}
+	float: left;
+	width: 100%;
+	}
 
 div.cms-container section.cms table tr
 td.text {
@@ -476,6 +475,22 @@ a.demo {
 	letter-spacing:1px;
 	text-align:center;
 	background-color:#121a48;
+	-webkit-border-radius:3px;
+	-moz-border-radius:3px;
+	border-radius:3px;
+}
+
+div.cms-container section.cms table tr td.contact {
+	display:inline-block;
+	padding:213px 0px;
+	width:820px;
+	margin-left: 700px;
+	
+	font-size:14px;
+	text-transform:uppercase;
+	letter-spacing:1px;
+	text-align:center;
+	
 	-webkit-border-radius:3px;
 	-moz-border-radius:3px;
 	border-radius:3px;
