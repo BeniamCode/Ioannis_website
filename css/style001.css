@@ -483,8 +483,8 @@ a.demo {
 div.cms-container section.cms table tr td.contact {
 	display:inline-block;
 	padding:213px 0px;
-	width:820px;
-	margin-left: 700px;
+	width:100%;
+	
 	
 	font-size:14px;
 	text-transform:uppercase;
@@ -1001,8 +1001,7 @@ auto 30px auto;
 div.ready-to-start-container section.ready-to-start table tr td.text
 a.contact {
 	display:inline-block;
-	padding:13px
-0px;
+	padding:13px 0px;
 	width:220px;
 	color:#FFF;
 	font-size:14px;
@@ -2228,7 +2227,7 @@ textarea {
 	font-size:16px;
 	font-family:'Source Sans Pro', Helvetica, sans-serif;
 	border:1px
-solid #cdcfd5;
+	solid #cdcfd5;
 	-webkit-border-radius:5px;
 	-moz-border-radius:5px;
 	border-radius:5px;
