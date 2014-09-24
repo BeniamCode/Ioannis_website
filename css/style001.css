@@ -50,6 +50,7 @@ a.logo {
 	width:600px;
 	/*background-image:url(../img/img_logo.png);*/
 	background-repeat:no-repeat;
+	text-decoration:none
 }
 
 a.logo h1{
