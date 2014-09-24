@@ -1,0 +1,545 @@
+
+/**
+ * Less Hat contains many useful mixins including CSS 3 properties that require prefixes. 
+ * See https://github.com/csshat/lesshat/blob/master/README.md for your options.
+ */
+/**
+ * Clearless contains some useful helper mixins including .font-size-rems(), .clearfix etc. 
+ * See vendor/clearless/* for your options.
+ */
+
+/* ==========================================================================
+   Eric Meyer Reset
+   ========================================================================== */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0b1 | 201101 
+   NOTE: WORK IN PROGRESS
+   USE WITH CAUTION AND TEST WITH ABANDON */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+/* remember to define visible focus styles! 
+:focus {
+	outline: ?????;
+} */
+/* remember to highlight inserts somehow! */
+ins {
+  text-decoration: none;
+}
+del {
+  text-decoration: line-through;
+}
+/**
+ * Colors contains site wide color variables.
+ */
+/**
+ * General colors - no element-specific names
+ */
+/**
+ * Variables contains site wide variables such as @nav-link-color.
+ */
+/**
+ * The base path for CSS image assets. Use within your background image paths like so:
+ * background-image: url("@{asset-base-url}/bg.png");
+ */
+/**
+ * Typography contains some basic typography settings.
+ */
+/*-------------------------------------------- 
+Text and font properties only - all positioning, borders,
+margin, and padding that are not absolutely global
+should be set in base.less or main.less scoped appropriately.
+-------------------------------------------- */
+@font-face{
+  font-family:'font_awesome';
+  src: url('../font/fontawesome/fontawesome-webfont.eot');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'initiative_icons_regularRg';
+  src: url('../font/icon/icons-webfont.eot');
+  src: url('../font/icon/icons-webfontd41d.eot?#iefix') format('embedded-opentype'), url('../font/icon/icons-webfont.woff') format('woff'), url('../font/icon/icons-webfont.ttf') format('truetype'), url('../font/icon/icons-webfont.svg#initiative_icons_regularRg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'DIN Light';
+  src: url('../font/din/DINWeb-Light.eot');
+  src: url('../font/din/DINWeb-Lightd41d.eot?#iefix') format('embedded-opentype'), url('../font/din/DINWeb-Light.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'DIN Light Italic';
+  src: url('../font/din/DINWeb-LightIta.eot');
+  src: url('../font/din/DINWeb-LightItad41d.eot?#iefix') format('embedded-opentype'), url('../font/din/DINWeb-LightIta.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'DIN Reg';
+  src: url('../font/din/DINWeb.eot');
+  src: url('../font/din/DINWebd41d.eot?#iefix') format('embedded-opentype'), url('../font/din/DINWeb.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'DIN Bold';
+  src: url('../font/din/DINWeb-Bold.eot');
+  src: url('../font/din/DINWeb-Boldd41d.eot?#iefix') format('embedded-opentype'), url('../font/din/DINWeb-Bold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'DIN Condensed Bold';
+  src: url('../font/din/DINWeb-CondBold.eot');
+  src: url('../font/din/DINWeb-CondBoldd41d.eot?#iefix') format('embedded-opentype'), url('../font/din/DINWeb-CondBold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+.din-light {
+  font-family: 'DIN Light', Verdana, Roboto, sans-serif;
+}
+.din-light-italic {
+  font-family: 'DIN Light Italic', Verdana, Roboto, sans-serif;
+}
+.din-reg {
+  font-family: 'DIN Reg', Verdana, Roboto, sans-serif;
+}
+.din-bold {
+  font-family: 'DIN Bold', Verdana, Roboto, sans-serif;
+}
+.din-bold-cond {
+  font-family: 'DIN Condensed Bold', Verdana, Roboto, sans-serif;
+}
+
+.icon {
+  font-family: 'initiative_icons_regularRg';
+  -webkit-font-smoothing: antialiased;
+}
+.uppercase {
+  text-transform: uppercase;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'DIN Light', Verdana, Roboto, sans-serif;
+  font-weight: 400;
+}
+h1 {
+  font-size: 40px;
+  font-size: 2.5rem;
+}
+h2 {
+  font-size: 24px;
+  font-size: 1.5rem;
+}
+p {
+  line-height: 1.4;
+}
+a {
+  color: #8dd1ef;
+  text-decoration: none;
+}
+nav a {
+  color: #808080;
+}
+a:hover {
+  color: #bfbfbf;
+}
+a.active {
+  color: #ffffff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-----------------------------------------------------------------------------
+ *----------------------------------------------------------------------------- 
+ *
+ */
+/** BASE */
+/*    Global element styles only (i.e. h1-h6, p, a, ul, li)
+ *
+ *-----------------------------------------------------------------------------
+ *----------------------------------------------------------------------------- */
+/*-------------------------------------------- */
+/** Body and Large Elements */
+/*-------------------------------------------- */
+body {
+  min-width: 1150px;
+  font-family: 'DIN Light', Verdana, Roboto, sans-serif;
+  line-height: 1.2;
+  color: #404040;
+  background: url("../img/paper-bg.jpg") repeat;
+}
+body.home {
+  color: #ffffff;
+  background: url("../img/chalkboard-bg.jpg") repeat;
+}
+
+.col-content {
+  float:right;
+}
+/*-------------------------------------------- */
+/** Primary Fixed Navigation */
+/*-------------------------------------------- */
+#primary {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  width: 70px;
+  min-height: 100%;
+ /* background: url('../img/fallbacks/nav_bg.png') repeat-y;
+  background: rgba(20, 25, 29, 0.9);
+  -webkit-box-shadow: 2px 0px 25px 7px #14191d;
+  -moz-box-shadow: 2px 0px 25px 7px #14191d;
+  box-shadow: 2px 0px 25px 7px #14191d;*/
+  -webkit-transition: width 0.15s ease-in;
+  -moz-transition: width 0.15s ease-in;
+  -o-transition: width 0.15s ease-in;
+  transition: width 0.15s ease-in;
+}
+.ie #primary {
+  padding-right: 25px;
+}
+#primary .menu-primary-menu-container {
+  position: fixed;
+  top: 30%;
+  left: 0;
+}
+#primary .menu-primary-menu-container li {
+  position: relative;
+  display: block;
+  float: left;
+  clear: both;
+  width: 70px;
+  height: 60px;
+  overflow: hidden;
+  border-top: solid 1px transparent;
+  border-bottom: solid 1px #14191d;
+  padding: 0;
+  background: #313c49;
+  background: rgba(49, 60, 73, 0.7);
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: width 0.25s ease-out;
+  -moz-transition: width 0.25s ease-out;
+  -o-transition: width 0.25s ease-out;
+  transition: width 0.25s ease-out;
+  /*-------------------------------------------- */
+  /** Sprites */
+  /*-------------------------------------------- */
+}
+.ie #primary .menu-primary-menu-container li:before {
+  content: '' !important;
+  width: 0;
+  height: 0;
+}
+.ie #primary .menu-primary-menu-container li.home a:before {
+  content: "H";
+  font-family: 'initiative_icons_regularRg';
+  -webkit-font-smoothing: antialiased;
+}
+.ie #primary .menu-primary-menu-container li.people a:before {
+  content: "P";
+  font-family: 'initiative_icons_regularRg';
+  -webkit-font-smoothing: antialiased;
+}
+.ie #primary .menu-primary-menu-container li.work a:before {
+  content: "W";
+  font-family: 'initiative_icons_regularRg';
+  -webkit-font-smoothing: antialiased;
+}
+.ie #primary .menu-primary-menu-container li.locations a:before {
+  content: "L";
+  font-family: 'initiative_icons_regularRg';
+  -webkit-font-smoothing: antialiased;
+}
+.ie #primary .menu-primary-menu-container li.news a:before {
+  content: "N";
+  font-family: 'initiative_icons_regularRg';
+  -webkit-font-smoothing: antialiased;
+}
+.ie #primary .menu-primary-menu-container li.blog a:before {
+  content: "B";
+  font-family: 'initiative_icons_regularRg';
+  -webkit-font-smoothing: antialiased;
+}
+.ie #primary .menu-primary-menu-container li a {
+  -webkit-opacity: 1;
+  -moz-opacity: 1;
+  opacity: 1;
+  display: block;
+}
+.ie #primary .menu-primary-menu-container li a:before {
+  content: '';
+  position: absolute;
+  z-index: 0;
+  top: 10px;
+  left: 13px;
+  display: block;
+  width: 41px;
+  height: 35px;
+  font-weight: 400;
+  font-size: 42px;
+  font-size: 2.625rem;
+  font-family: 'initiative_icons_regularRg';
+  -webkit-font-smoothing: antialiased;
+  color: #e0eeff;
+  text-align: center;
+}
+#primary .menu-primary-menu-container li a {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  display: block;
+  width: 210px;
+  height: 100%;
+  padding: 23px 0 17px 80px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  font-size: 15px;
+  font-size: 0.9375rem;
+  text-transform: uppercase;
+  color: #fff;
+  -webkit-opacity: 0;
+  -moz-opacity: 0;
+  opacity: 0;
+  -webkit-transition: opacity 0.2s 0 ease-in;
+  -moz-transition: opacity 0.2s 0 ease-in;
+  -o-transition: opacity 0.2s 0 ease-in;
+  transition: opacity 0.2s 0 ease-in;
+  white-space: nowrap;
+}
+#primary .menu-primary-menu-container li:hover,
+#primary .menu-primary-menu-container li.hover {
+  width: 210px;
+  border-top: 1px solid #313c49;
+  border-right: 1px solid #14191d;
+  border-bottom: 1px solid #14191d;
+  color: #ffffff;
+  background: #1b313c;
+  -webkit-transition: width 0.1s ease-out;
+  -moz-transition: width 0.1s ease-out;
+  -o-transition: width 0.1s ease-out;
+  transition: width 0.1s ease-out;
+}
+#primary .menu-primary-menu-container li:hover:before,
+#primary .menu-primary-menu-container li.hover:before,
+#primary .menu-primary-menu-container li:hover a:before,
+#primary .menu-primary-menu-container li.hover a:before {
+  color: #43baee !important;
+}
+#primary .menu-primary-menu-container li:hover a,
+#primary .menu-primary-menu-container li.hover a {
+  opacity: 1;
+  -webkit-transition: opacity 0.2s 0.1s ease-out;
+  -moz-transition: opacity 0.2s 0.1s ease-out;
+  -o-transition: opacity 0.2s 0.1s ease-out;
+  transition: opacity 0.2s 0.1s ease-out;
+}
+#primary .menu-primary-menu-container li:before {
+  content: '';
+  position: absolute;
+  z-index: 0;
+  top: 10px;
+  left: 13px;
+  display: block;
+  width: 41px;
+  height: 35px;
+  font-weight: 400;
+  font-size: 42px;
+  font-size: 2.625rem;
+  font-family: 'initiative_icons_regularRg';
+  -webkit-font-smoothing: antialiased;
+  color: #e0eeff;
+  text-align: center;
+}
+#primary .menu-primary-menu-container li.current-menu-item {
+  -webkit-transition: none;
+  -moz-transition: none;
+  -o-transition: none;
+  transition: none;
+  background: #121517;
+  background: rgba(18, 21, 23, 0.5);
+}
+#primary .menu-primary-menu-container li.current-menu-item:before,
+#primary .menu-primary-menu-container li.current-menu-item a:before {
+  color: #ffffff;
+}
+#primary .menu-primary-menu-container li.current-menu-item:hover {
+  width: 70px;
+  border-top: solid 1px #14191d;
+  border-bottom: solid 1px #14191d;
+  background: #121517;
+  background: rgba(18, 21, 23, 0.5);
+}
+#primary .menu-primary-menu-container li.current-menu-item:hover a {
+  -webkit-opacity: 0;
+  -moz-opacity: 0;
+  opacity: 0;
+}
+#primary .menu-primary-menu-container li.current-menu-item:hover:before {
+  color: #ffffff !important;
+}
+#primary .menu-primary-menu-container li.home:before {
+  content: "H";
+  font-family: 'initiative_icons_regularRg';
+  -webkit-font-smoothing: antialiased;
+}
+#primary .menu-primary-menu-container li.people:before {
+  content: "P";
+  font-family: 'initiative_icons_regularRg';
+  -webkit-font-smoothing: antialiased;
+}
+#primary .menu-primary-menu-container li.work:before {
+  content: "B";
+  font-family: 'initiative_icons_regularRg';
+  -webkit-font-smoothing: antialiased;
+}
+#primary .menu-primary-menu-container li.locations:before {
+  content: "L";
+  font-family: 'initiative_icons_regularRg';
+  -webkit-font-smoothing: antialiased;
+}
+#primary .menu-primary-menu-container li.news:before {
+  content: "N";
+  font-family: 'initiative_icons_regularRg';
+  -webkit-font-smoothing: antialiased;
+}
+#primary .menu-primary-menu-container li.blog:before {
+  content: "B";
+  font-family: 'initiative_icons_regularRg';
+  -webkit-font-smoothing: antialiased;
+}

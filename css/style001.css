@@ -455,8 +455,7 @@ h3 {
 
 div.cms-container section.cms table tr td.text
 p {
-	margin:0px
-auto 30px auto;
+	margin:0px auto 30px auto;
 	color:#0a1553;
 	font-size:18px;
 	text-align:justify;
@@ -466,8 +465,7 @@ auto 30px auto;
 div.cms-container section.cms table tr td.text
 a.demo {
 	display:inline-block;
-	padding:13px
-0px;
+	padding:13px 0px;
 	width:220px;
 	color:#FFF;
 	font-size:14px;
