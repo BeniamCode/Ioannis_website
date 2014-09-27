@@ -72,12 +72,12 @@ a.link {
 	opacity:0.6;
 }
 
-div.menu-container header.menu a.link:hover, 
-div.menu-container header.menu.home a.link.home, 
-div.menu-container header.menu.prices a.link.tarifs, 
-div.menu-container header.menu.vision a.link.a-propos, 
-div.menu-container header.menu.partners a.link.a-propos, 
-div.menu-container header.menu.jobs a.link.a-propos, 
+div.menu-container header.menu a.link:hover,
+div.menu-container header.menu.home a.link.home,
+div.menu-container header.menu.prices a.link.tarifs,
+div.menu-container header.menu.vision a.link.a-propos,
+div.menu-container header.menu.partners a.link.a-propos,
+div.menu-container header.menu.jobs a.link.a-propos,
 div.menu-container header.menu.contact
 a.link.contact {
 	filter:alpha(opacity=100);
@@ -156,6 +156,9 @@ div.containers {
 div.discover-container {
 	background-image:url(../img/test003.png);
 	background-size:cover;
+	  max-width: 100%;
+    height: auto;
+    width: auto\9; /* ie8 */
 }
 
 div.discover-container
@@ -205,7 +208,7 @@ span.border {
 	background-color:#FFF;
 }
 
-div.discover-container section.discover a.demo, 
+div.discover-container section.discover a.demo,
 div.discover-container section.discover
 a.audit {
 	display:inline-block;
@@ -224,7 +227,7 @@ solid #FFF;
 	border-radius:3px;
 }
 
-div.discover-container section.discover a.demo:hover, 
+div.discover-container section.discover a.demo:hover,
 div.discover-container section.discover a.audit:hover {
 	color:#09c6b2;
 	border:1px
@@ -484,13 +487,13 @@ div.cms-container section.cms table tr td.contact {
 	display:inline-block;
 	padding:213px 0px;
 	width:100%;
-	
-	
+
+
 	font-size:14px;
 	text-transform:uppercase;
 	letter-spacing:1px;
 	text-align:center;
-	
+
 	-webkit-border-radius:3px;
 	-moz-border-radius:3px;
 	border-radius:3px;
@@ -521,7 +524,7 @@ a {
 	background-color:#1f1c29;
 }
 
-div.features-container nav a.active, 
+div.features-container nav a.active,
 div.features-container nav a:hover {
 	background-color:#0accca;
 }
@@ -1121,7 +1124,7 @@ a {
 	letter-spacing:1px;
 }
 
-div.sub-menu-container nav.sub-menu a.active, 
+div.sub-menu-container nav.sub-menu a.active,
 div.sub-menu-container nav.sub-menu a:hover {
 	color:#2a3363;
 }
@@ -1293,8 +1296,8 @@ div.prices-array-container section.prices-array {
 	width:960px;
 }
 
-div.prices-array-container section.prices-array div.side1, 
-div.prices-array-container section.prices-array div.side2, 
+div.prices-array-container section.prices-array div.side1,
+div.prices-array-container section.prices-array div.side2,
 div.prices-array-container section.prices-array
 div.side3 {
 	float:left;
@@ -1326,7 +1329,7 @@ h3 {
 	background-color:#0a1035;
 }
 
-div.prices-array-container section.prices-array div.side2 h3, 
+div.prices-array-container section.prices-array div.side2 h3,
 div.prices-array-container section.prices-array div.side3
 h3 {
 	color:#696e8a;
@@ -1349,7 +1352,7 @@ div.rate {
 	background-color:#0a1035;
 }
 
-div.prices-array-container section.prices-array div.side2 div.rate, 
+div.prices-array-container section.prices-array div.side2 div.rate,
 div.prices-array-container section.prices-array div.side3
 div.rate {
 	background-color:#393d5b;
@@ -1825,7 +1828,7 @@ a.top {
 	border-top:1px solid #cdcfd5;
 }
 
-div.partners-list-container section.partners-list div.side1 nav a.active, 
+div.partners-list-container section.partners-list div.side1 nav a.active,
 div.partners-list-container section.partners-list div.side1 nav a:hover {
 	color:#2a3363;
 }
@@ -1842,7 +1845,7 @@ span {
 	background-repeat:no-repeat;
 }
 
-div.partners-list-container section.partners-list div.side1 nav a.active span, 
+div.partners-list-container section.partners-list div.side1 nav a.active span,
 div.partners-list-container section.partners-list div.side1 nav a:hover
 span {
 	background-position:-4px 0px;
@@ -1995,8 +1998,8 @@ div.contact-address-container section.contact-address {
 	width:960px;
 }
 
-div.contact-address-container section.contact-address div.side1, 
-div.contact-address-container section.contact-address div.side2, 
+div.contact-address-container section.contact-address div.side1,
+div.contact-address-container section.contact-address div.side2,
 div.contact-address-container section.contact-address
 div.side3 {
 	float:left;
@@ -2212,11 +2215,11 @@ div.contact-form-container section.contact-form ul.dropdown-select li a:hover {
 	background-color:#f3f3f5;
 }
 
-div.contact-form-container section.contact-form input[type=text], 
-div.contact-form-container section.contact-form input[type=email], 
-div.contact-form-container section.contact-form input[type=password], 
-div.contact-form-container section.contact-form input[type=tel], 
-div.contact-form-container section.contact-form input[type=number], 
+div.contact-form-container section.contact-form input[type=text],
+div.contact-form-container section.contact-form input[type=email],
+div.contact-form-container section.contact-form input[type=password],
+div.contact-form-container section.contact-form input[type=tel],
+div.contact-form-container section.contact-form input[type=number],
 div.contact-form-container section.contact-form
 textarea {
 	position:relative;
@@ -2234,10 +2237,10 @@ textarea {
 	-webkit-appearance:none;
 }
 
-div.contact-form-container section.contact-form input[type=text], 
-div.contact-form-container section.contact-form input[type=email], 
-div.contact-form-container section.contact-form input[type=password], 
-div.contact-form-container section.contact-form input[type=tel], 
+div.contact-form-container section.contact-form input[type=text],
+div.contact-form-container section.contact-form input[type=email],
+div.contact-form-container section.contact-form input[type=password],
+div.contact-form-container section.contact-form input[type=tel],
 div.contact-form-container section.contact-form input[type=number] {
 	height:22px;
 	width:100%;
@@ -2250,17 +2253,17 @@ textarea {
 	resize:none;
 }
 
-div.contact-form-container section.contact-form input[type=text]:focus, 
-div.contact-form-container section.contact-form input[type=email]:focus, 
-div.contact-form-container section.contact-form input[type=password]:focus, 
-div.contact-form-container section.contact-form input[type=tel]:focus, 
-div.contact-form-container section.contact-form input[type=number]:focus, 
-div.contact-form-container section.contact-form textarea:focus, 
-div.contact-form-container section.contact-form div.error input[type=text]:focus, 
-div.contact-form-container section.contact-form div.error input[type=email]:focus, 
-div.contact-form-container section.contact-form div.error input[type=password]:focus, 
-div.contact-form-container section.contact-form div.error input[type=tel]:focus, 
-div.contact-form-container section.contact-form div.error input[type=number]:focus, 
+div.contact-form-container section.contact-form input[type=text]:focus,
+div.contact-form-container section.contact-form input[type=email]:focus,
+div.contact-form-container section.contact-form input[type=password]:focus,
+div.contact-form-container section.contact-form input[type=tel]:focus,
+div.contact-form-container section.contact-form input[type=number]:focus,
+div.contact-form-container section.contact-form textarea:focus,
+div.contact-form-container section.contact-form div.error input[type=text]:focus,
+div.contact-form-container section.contact-form div.error input[type=email]:focus,
+div.contact-form-container section.contact-form div.error input[type=password]:focus,
+div.contact-form-container section.contact-form div.error input[type=tel]:focus,
+div.contact-form-container section.contact-form div.error input[type=number]:focus,
 div.contact-form-container section.contact-form div.error textarea:focus {
 	outline:none;
 	border:1px
@@ -2268,11 +2271,11 @@ solid #09c6b2;
 	box-shadow:none;
 }
 
-div.contact-form-container section.contact-form div.error input[type=text], 
-div.contact-form-container section.contact-form div.error input[type=email], 
-div.contact-form-container section.contact-form div.error input[type=password], 
-div.contact-form-container section.contact-form div.error input[type=tel], 
-div.contact-form-container section.contact-form div.error input[type=number], 
+div.contact-form-container section.contact-form div.error input[type=text],
+div.contact-form-container section.contact-form div.error input[type=email],
+div.contact-form-container section.contact-form div.error input[type=password],
+div.contact-form-container section.contact-form div.error input[type=tel],
+div.contact-form-container section.contact-form div.error input[type=number],
 div.contact-form-container section.contact-form div.error
 textarea {
 	border:1px
@@ -2372,8 +2375,8 @@ td.mail {
 	padding-left:23px;
 }
 
-div.footer-container footer div.infos table td.address span, 
-div.footer-container footer div.infos table td.phone span, 
+div.footer-container footer div.infos table td.address span,
+div.footer-container footer div.infos table td.phone span,
 div.footer-container footer div.infos table td.mail
 span {
 	position:absolute;
@@ -2400,7 +2403,7 @@ span {
 	background-position:-40px 0px;
 }
 
-div.footer-container footer div.infos table td.phone a, 
+div.footer-container footer div.infos table td.phone a,
 div.footer-container footer div.infos table td.mail
 a {
 	color:#070b26;
@@ -2525,8 +2528,8 @@ span {
 	background-size:27px 30px;
 }
 
-div.footer-container footer div.infos table td.address span, 
-div.footer-container footer div.infos table td.phone span, 
+div.footer-container footer div.infos table td.address span,
+div.footer-container footer div.infos table td.phone span,
 div.footer-container footer div.infos table td.mail
 span {
 	background-image:url(../img/sp_footer-x4.png);
@@ -2550,5 +2553,5 @@ color:#FFFAEE;
 
 text-align: center;
 vertical-align: middle;
-line-height: 90px; 
+line-height: 90px;
 }

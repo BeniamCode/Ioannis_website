@@ -50,13 +50,13 @@ span.border {
 	display:none;
 }
 
-div.discover-container section.discover a.demo, 
+div.discover-container section.discover a.demo,
 div.discover-container section.discover
 a.audit {
 	display:none;
 }
 
-div.discover-container section.discover a.demo:hover, 
+div.discover-container section.discover a.demo:hover,
 div.discover-container section.discover
 span.call {
 	display:none;
@@ -86,8 +86,7 @@ div.ready-to-start-container {
 
 div.discover-container
 section.discover {
-	padding:190px
-20px 100px 20px;
+	padding:190px 20px 100px 20px;
 }
 
 div.whats-container section.whats
@@ -95,12 +94,12 @@ img.signature {
 	margin-top:30px;
 }
 
-div.whats-container section.whats, 
-div.multi-site-container section.multi-site, 
-div.cms-container section.cms, 
-div.modules-container section.modules, 
-div.communication-container section.communication, 
-div.performance-container section.performance, 
+div.whats-container section.whats,
+div.multi-site-container section.multi-site,
+div.cms-container section.cms,
+div.modules-container section.modules,
+div.communication-container section.communication,
+div.performance-container section.performance,
 div.ready-to-start-container section.ready-to-start {
 	padding:50px
 10px;
@@ -111,12 +110,12 @@ table {
 	width:100%;
 }
 
-div.whats-container section.whats table tr td.text h2, 
-div.multi-site-container section.multi-site table tr td.text h2, 
-div.cms-container section.cms table tr td.text h2, 
-div.modules-container section.modules table tr td.text h2, 
-div.communication-container section.communication table tr td.text h2, 
-div.performance-container section.performance table tr td.text h2, 
+div.whats-container section.whats table tr td.text h2,
+div.multi-site-container section.multi-site table tr td.text h2,
+div.cms-container section.cms table tr td.text h2,
+div.modules-container section.modules table tr td.text h2,
+div.communication-container section.communication table tr td.text h2,
+div.performance-container section.performance table tr td.text h2,
 div.ready-to-start-container section.ready-to-start table tr td.text
 h2 {
 	margin-bottom:30px;
@@ -125,23 +124,23 @@ h2 {
 	line-height:28px;
 }
 
-div.whats-container section.whats table tr td.text h3, 
-div.multi-site-container section.multi-site table tr td.text h3, 
-div.cms-container section.cms table tr td.text h3, 
-div.modules-container section.modules table tr td.text h3, 
-div.communication-container section.communication table tr td.text h3, 
-div.performance-container section.performance table tr td.text h3, 
+div.whats-container section.whats table tr td.text h3,
+div.multi-site-container section.multi-site table tr td.text h3,
+div.cms-container section.cms table tr td.text h3,
+div.modules-container section.modules table tr td.text h3,
+div.communication-container section.communication table tr td.text h3,
+div.performance-container section.performance table tr td.text h3,
 div.ready-to-start-container section.ready-to-start table tr td.text
 h3 {
 	display:none;
 }
 
-div.whats-container section.whats table tr td.text p, 
-div.multi-site-container section.multi-site table tr td.text p, 
-div.cms-container section.cms table tr td.text p, 
-div.modules-container section.modules table tr td.text p, 
-div.communication-container section.communication table tr td.text p, 
-div.performance-container section.performance table tr td.text p, 
+div.whats-container section.whats table tr td.text p,
+div.multi-site-container section.multi-site table tr td.text p,
+div.cms-container section.cms table tr td.text p,
+div.modules-container section.modules table tr td.text p,
+div.communication-container section.communication table tr td.text p,
+div.performance-container section.performance table tr td.text p,
 div.ready-to-start-container section.ready-to-start table tr td.text
 p {
 	margin:0px;
@@ -214,12 +213,12 @@ a {
 	color:#0a1553;
 }
 
-div.whats-container section.whats table tr td.text a.demo, 
-div.multi-site-container section.multi-site table tr td.text a.demo, 
-div.cms-container section.cms table tr td.text a.demo, 
-div.modules-container section.modules table tr td.text a.demo, 
-div.communication-container section.communication table tr td.text a.demo, 
-div.performance-container section.performance table tr td.text a.demo, 
+div.whats-container section.whats table tr td.text a.demo,
+div.multi-site-container section.multi-site table tr td.text a.demo,
+div.cms-container section.cms table tr td.text a.demo,
+div.modules-container section.modules table tr td.text a.demo,
+div.communication-container section.communication table tr td.text a.demo,
+div.performance-container section.performance table tr td.text a.demo,
 div.ready-to-start-container section.ready-to-start table tr td.text
 a.contact {
 	display:none;
@@ -287,7 +286,8 @@ div.social {
 	display:none;
 }
 
-@media (min-resolution: 192dpi),  (-webkit-min-device-pixel-ratio: 2),  (min--moz-device-pixel-ratio: 2),  (-o-min-device-pixel-ratio: 2/1),  (min-device-pixel-ratio: 2),  (min-resolution: 2dppx) {
+@media (min-resolution: 192dpi),  (-webkit-min-device-pixel-ratio: 2),  (min--moz-device-pixel-ratio: 2),  (-o-min-device-pixel-ratio: 2/1),  (min-device-pixel-ratio: 2),  (min-resolution: 2dppx)
+{
 	div.ready-to-start-container section.ready-to-start table tr td.text section.contact-mobile div.part
 span.picto {
 	background-image:url(../img/sp_contact-x4.png);

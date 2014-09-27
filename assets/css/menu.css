@@ -1,18 +1,18 @@
 
 /**
- * Less Hat contains many useful mixins including CSS 3 properties that require prefixes. 
+ * Less Hat contains many useful mixins including CSS 3 properties that require prefixes.
  * See https://github.com/csshat/lesshat/blob/master/README.md for your options.
  */
 /**
- * Clearless contains some useful helper mixins including .font-size-rems(), .clearfix etc. 
+ * Clearless contains some useful helper mixins including .font-size-rems(), .clearfix etc.
  * See vendor/clearless/* for your options.
  */
 
 /* ==========================================================================
    Eric Meyer Reset
    ========================================================================== */
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0b1 | 201101 
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0b1 | 201101
    NOTE: WORK IN PROGRESS
    USE WITH CAUTION AND TEST WITH ABANDON */
 html,
@@ -128,7 +128,7 @@ q:after {
   content: '';
   content: none;
 }
-/* remember to define visible focus styles! 
+/* remember to define visible focus styles!
 :focus {
 	outline: ?????;
 } */
@@ -155,7 +155,7 @@ del {
 /**
  * Typography contains some basic typography settings.
  */
-/*-------------------------------------------- 
+/*--------------------------------------------
 Text and font properties only - all positioning, borders,
 margin, and padding that are not absolutely global
 should be set in base.less or main.less scoped appropriately.
@@ -281,7 +281,7 @@ a.active {
 
 
 /*-----------------------------------------------------------------------------
- *----------------------------------------------------------------------------- 
+ *-----------------------------------------------------------------------------
  *
  */
 /** BASE */
@@ -292,13 +292,7 @@ a.active {
 /*-------------------------------------------- */
 /** Body and Large Elements */
 /*-------------------------------------------- */
-body {
-  min-width: 1150px;
-  font-family: 'DIN Light', Verdana, Roboto, sans-serif;
-  line-height: 1.2;
-  color: #404040;
-  background: url("../img/paper-bg.jpg") repeat;
-}
+
 body.home {
   color: #ffffff;
   background: url("../img/chalkboard-bg.jpg") repeat;
