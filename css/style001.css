@@ -268,7 +268,7 @@ div.whats-container {
 div.whats-container
 section.whats {
 	padding-top:90px;
-	overflow:hidden;
+	overflow: auto;
 }
 
 div.whats-container section.whats
@@ -285,7 +285,9 @@ div.whats-container section.whats table tr
 td.text {
 	padding:0px 3%;
 	width:50%;
-}
+
+
+	}
 
 div.whats-container section.whats table tr td.text
 h2 {
@@ -295,6 +297,7 @@ h2 {
 	font-weight:200;
 	line-height:40px;
 	letter-spacing:-1px;
+
 }
 
 div.whats-container section.whats table tr td.text h2
@@ -304,8 +307,7 @@ span {
 
 div.whats-container section.whats table tr td.text
 p {
-	margin:0px
-auto 30px auto;
+	margin:0px auto 30px auto;
 	color:#0a1553;
 	font-size:18px;
 	text-align:justify;
@@ -337,8 +339,7 @@ td.img {
 
 div.multi-site-container section.multi-site table tr
 td.text {
-	padding:0px
-3% 0px 2%;
+	padding:0px 3% 0px 2%;
 	width:45%;
 }
 
@@ -504,8 +505,7 @@ div.cms-container section.cms table tr td.text a.demo:hover {
 }
 
 div.features-container {
-	padding:0px
-95px 0px 95px;
+	padding:0px 95px 0px 95px;
 	background-image:url(../img/bg_features.png);
 	background-size:cover;
 }
@@ -597,8 +597,7 @@ img {
 
 div.features-container section.features table tr
 td.text {
-	padding:0px
-3% 0px 0px;
+	padding:0px 3% 0px 0px;
 	width:50%;
 }
 
