@@ -2559,10 +2559,48 @@ line-height: 90px;
 }
 
 .sig{
-	width:60%;
+	width:80%;
 	opacity: 0.4;
-    position: relative;
-    left: 0px;
-    top: 0px;
-    z-index: -60;
+
+
+margin-top:50%;
+margin-left: 10%;
+
 }
+
+
+div.happy section.whats {
+	padding:120px 3%;
+	width:100%;
+
+
+
+	}
+
+div.happy section.whats
+h2 {
+	margin-bottom:30px;
+	color:#0a1553;
+	font-size:45px;
+	font-weight:200;
+	line-height:40px;
+	letter-spacing:-1px;
+
+}
+
+div.happy section.whats h2
+span {
+	font-weight:600;
+}
+
+div.happy section.whats
+p {
+	margin:0px auto 30px auto;
+	color:#0a1553;
+	font-size:18px;
+	text-align:justify;
+	line-height:25px;
+}
+
+.rightside i
+{text-align: right;}
