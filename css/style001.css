@@ -274,6 +274,7 @@ section.whats {
 
 div.whats-container section.whats
 table {
+
 	height:100%;
 
 }
@@ -2569,8 +2570,25 @@ margin-left: 10%;
 }
 
 
+}
+
+div.happy
+section.whats {
+	padding-top:90px;
+	overflow: auto;
+
+}
+
+div.happy section.whats
+table {
+
+	height:100%;
+
+}
+
 div.happy section.whats {
-	padding:120px 3%;
+
+	padding:0px 3%;
 	width:100%;
 
 
