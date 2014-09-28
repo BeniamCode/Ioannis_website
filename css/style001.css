@@ -154,7 +154,7 @@ div.containers {
 }
 
 div.discover-container {
-	background-image:url(../img/test003.png);
+	background-image:url(../img/john001.jpg);
 	background-size:cover;
 	  max-width: 100%;
     height: auto;
@@ -247,8 +247,7 @@ a.audit {
 div.discover-container section.discover
 span.call {
 	display:block;
-	margin:30px
-0px 0px 0px;
+	margin:30px 0px 0px 0px;
 	font-size:20px;
 	color:#FFF;
 }
@@ -265,8 +264,17 @@ div.whats-container {
 	background-size:cover;
 }
 
+
+div.whats-container2 {
+	padding:0px 95px 0px 0px;
+	/*background-color:#fcfbfb;*/
+/*background-image:url(../img/cd.jpg);*/
+	background-size:cover;
+}
+
 div.whats-container
 section.whats {
+
 	padding-top:90px;
 	overflow: auto;
 
@@ -320,13 +328,13 @@ p {
 
 div.multi-site-container {
 	padding:0px 95px 0px 0px;
-	background-image:url(../img/bg_multi-site.png);
+	background-image:url(../img/concert.jpg);
 	background-size:cover;
 }
 
 div.multi-site-container section.multi-site {
 	padding-top:90px;
-	overflow:hidden;
+	overflow:auto;
 }
 
 div.multi-site-container section.multi-site
@@ -336,8 +344,7 @@ table {
 
 div.multi-site-container section.multi-site table tr
 td.img {
-	padding:20px
-0px 20px 40px;
+	padding:20px 0px 20px 40px;
 	width:55%;
 }
 
@@ -2309,10 +2316,14 @@ solid #09c6b2;
 }
 
 div.footer-container {
+
+
+
 	height:90px;
 	width:100%;
 	border-top:1px solid #cdcfd5;
 	background-color:#f8f8f8;
+	position: bottom;
 }
 
 div.footer-container
@@ -2561,10 +2572,10 @@ line-height: 90px;
 
 .sig{
 	width:80%;
-	opacity: 0.4;
+	opacity: 0.32;
 
 
-margin-top:50%;
+margin-top:20%;
 margin-left: 10%;
 
 }
@@ -2588,7 +2599,7 @@ table {
 
 div.happy section.whats {
 
-	padding:0px 3%;
+	padding:110px 3%;
 	width:100%;
 
 
@@ -2606,6 +2617,7 @@ h2 {
 
 }
 
+
 div.happy section.whats h2
 span {
 	font-weight:600;
@@ -2620,5 +2632,261 @@ p {
 	line-height:25px;
 }
 
-.rightside i
-{text-align: right;}
+.rightside
+{
+		text-align: right;
+		}
+
+.concert
+{
+padding:110px 3%;
+width:100%;
+overflow: auto;
+
+}
+
+.concert h1
+{
+
+color:#00afff;
+	font-size:45px;
+	font-weight:200;
+	line-height:40px;
+	letter-spacing:-1px;
+
+}
+
+.concert h1 span
+{
+
+color:white;
+	font-size:45px;
+	font-weight:200;
+	line-height:40px;
+	letter-spacing:-1px;
+	background-color:#A700DE;
+
+}
+
+.concert h2
+{
+	margin-bottom:30px;
+	color: grey;
+	font-size:25px;
+	font-weight:200;
+	line-height:40px;
+	letter-spacing:-1px;
+
+}
+
+.concert p {
+	margin:0px auto 30px auto;
+	color:white;
+	font-size:18px;
+	text-align:justify;
+	line-height:25px;
+}
+
+.concert2 h1 span
+{
+
+color:white;
+	font-size:45px;
+	font-weight:200;
+	line-height:40px;
+	letter-spacing:-1px;
+	background-color:#A700DE;
+
+}
+
+.concert2
+{
+padding:110px 3%;
+width:100%;
+overflow: auto;
+
+}
+
+.concert2 h1
+{
+
+color:#00afff;
+	font-size:45px;
+	font-weight:200;
+	line-height:40px;
+	letter-spacing:-1px;
+
+}
+
+.concert2 h2
+{
+	margin-bottom:30px;
+  color: white;
+	font-size:38px;
+	font-weight:200;
+	line-height:40px;
+	letter-spacing:-1px;
+
+}
+
+.concert2 p {
+	margin:0px auto 30px auto;
+	color:white;
+	font-size:18px;
+	text-align:justify;
+	line-height:25px;
+}
+/*new footer*/
+
+
+div.new-footer-container {
+
+	position:fixed;
+    height:50px;
+    background-color:red;
+    bottom:0px;
+    left:0px;
+    right:0px;
+    margin-bottom:0px;
+
+
+
+	height:90px;
+	width:100%;
+	border-top:1px solid #cdcfd5;
+	background-color:#f8f8f8;
+	position: bottom;
+}
+
+div.new-footer-container
+footer {
+	margin:0px
+auto;
+	width:990px;
+}
+
+div.new-footer-container footer
+div.infos {
+	float:left;
+	padding-top:31px;
+	height:59px;
+	width:860px;
+	color:#070b26;
+	font-size:14px;
+	border-right:1px solid #c1c4cb;
+}
+
+div.new-footer-container footer div.infos table
+td.logo {
+	padding-left:45px;
+	width:192px;
+	font-size:12px;
+	text-transform:uppercase;
+}
+
+div.new-footer-container footer div.infos table td.logo
+span {
+	position:absolute;
+	display:inline-block;
+	margin:0px 0px 0px -32px;
+	height:30px;
+	width:27px;
+	background-image:url(../img/img_logo-footer.png);
+	background-repeat:no-repeat;
+}
+
+div.new-footer-container footer div.infos table td.logo
+a {
+	color:#afb2bb;
+}
+
+div.new-footer-container footer div.infos table td.logo a:hover {
+	color:#696e8a;
+}
+
+div.new-footer-container footer div.infos table
+td.address {
+	padding-left:23px;
+	width:262px;
+}
+
+div.new-footer-container footer div.infos table
+td.phone {
+	padding-left:23px;
+	width:142px;
+}
+
+div.new-footer-container footer div.infos table
+td.mail {
+	padding-left:23px;
+}
+
+div.new-footer-container footer div.infos table td.address span,
+div.new-footer-container footer div.infos table td.phone span,
+div.new-footer-container footer div.infos table td.mail
+span {
+	position:absolute;
+	display:inline-block;
+	margin:-2px 0px 0px -23px;
+	height:20px;
+	width:20px;
+	background-image:url(../img/sp_footer.png);
+	background-repeat:no-repeat;
+}
+
+div.new-footer-container footer div.infos table td.address
+span {
+	background-position:0px 0px;
+}
+
+div.new-footer-container footer div.infos table td.phone
+span {
+	background-position:-20px 0px;
+}
+
+div.new-footer-container footer div.infos table td.mail
+span {
+	background-position:-40px 0px;
+}
+
+div.new-footer-container footer div.infos table td.phone a,
+div.new-footer-container footer div.infos table td.mail
+a {
+	color:#070b26;
+}
+
+div.new-footer-container footer
+div.social {
+	float:left;
+	padding-top:30px;
+	width:120px;
+}
+
+div.new-footer-container footer div.social
+a {
+	display:inline-block;
+	height:35px;
+	width:35px;
+	background-image:url(../img/sp_social.png);
+	background-repeat:no-repeat;
+}
+
+div.new-footer-container footer div.social
+a.facebook {
+	margin-left:30px;
+	background-position:0px 0px;
+}
+
+div.new-footer-container footer div.social
+a.twitter {
+	margin-left:7px;
+	background-position:0px -35px;
+}
+
+div.new-footer-container footer div.social a.facebook:hover {
+	background-position:-35px 0px;
+}
+
+div.new-footer-container footer div.social a.twitter:hover {
+	background-position:-35px -35px;
+}
