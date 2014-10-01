@@ -35,7 +35,11 @@ End of message
 ";
 
 /* Send the message using mail() function */
-mail($myemail, $subject, $message);
+mail($email, $subject, $message);
+
+/* Redirect visitor to the thank you page */
+header('Location: pages/thanks.html');
+exit();
 
 function check_input($data, $problem='')
 {
