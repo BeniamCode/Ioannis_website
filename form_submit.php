@@ -3,7 +3,7 @@
 $myemail  = "beniam@ioannisdimitriadis.com";
 
 /* Check all form inputs using check_input function */
-$yourname = check_input($_POST['yourname'], "Enter your name");
+/*$yourname = check_input($_POST['yourname'], "Enter your name");*/
 $subject  = check_input($_POST['subject'], "Write a subject");
 $email    = check_input($_POST['email']);
 $comments = check_input($_POST['message'], "Write your comments");
