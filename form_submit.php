@@ -1,6 +1,8 @@
 <?php
 /* Set e-mail recipient */
-$myemail  = "beniam@ioannisdimitriadis.com";
+$myemail  = "dbeniam@gmail.com";
+
+echo "Debug point 1\n";
 
 /* Check all form inputs using check_input function */
 $yourname = check_input($_POST['yourname'], "Enter your name");
@@ -14,7 +16,7 @@ $comments = check_input($_POST['message'], "Write your comments");
     show_error("E-mail address not valid");
 }*/
 
-
+echo "Debug point 2\n variables set\n\n\n";
 
 /* Let's prepare the message for the e-mail */
 $message = "Hello!
@@ -35,11 +37,13 @@ End of message
 ";
 
 /* Send the message using mail() function */
-mail($email, $subject, $message);
+/*mail($myemail, $subject, $message);*/
 
+echo "Debug point 3\n calling redirect page\n\n\n";
 /* Redirect visitor to the thank you page */
 header('Location: pages/thanks.html');
 exit();
+echo "Debug point 4\n redirect exit\n\n\n";
 
 function check_input($data, $problem='')
 {
